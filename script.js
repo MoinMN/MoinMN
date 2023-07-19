@@ -8,7 +8,7 @@ btn.addEventListener("click", ()=>{
         navList.style.right = '0%';
     }
     if (btn.querySelector('i').className == 'fa-solid fa-bars'){
-        navList.style.right = '-500px';
+        navList.style.right = '-280px';
     }
 });
 

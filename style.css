@@ -47,6 +47,7 @@ nav{
     top: 0;
     z-index: 1;
     position: sticky;
+    box-shadow: 0px 0px 15px var(--blue-7);
     /* position: fixed; */
 }
 
@@ -97,10 +98,10 @@ nav .logo img{
 }
 
 aside{
-    width: 500px;
+    width: 280px;
     height: 100vh;
     position: fixed;
-    right: -500px;
+    right: -280px;
     background-color: var(--blue-7);
     /* display: none; */
     z-index: 1;
@@ -637,4 +638,5 @@ footer .right{
     font-size: 18px;
     color: black;
     font-weight: 300;
+    margin-bottom: 15px;
 }

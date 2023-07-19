@@ -311,43 +311,43 @@
 
 @media (max-width: 475px){
     #home .container .content h1{
-        font-size: 26px;
-    }
-
-    #home .container .content h1 span{
-        font-size: 32px;
-    }
-
-    #home .container .content h2{
-        font-size: 24px;
-    }
-    
-    #home .container .content h2 span{
         font-size: 30px;
     }
 
+    #home .container .content h1 span{
+        font-size: 36px;
+    }
+
+    #home .container .content h2{
+        font-size: 26px;
+    }
+    
+    #home .container .content h2 span{
+        font-size: 34px;
+    }
+
     .btn button{
-        font-size: 10px;
+        font-size: 13px;
     }
 
     #about .container p{
-        font-size: 12px;
+        font-size: 16px;
     }
 
     #about .container h2{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     footer .right{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     footer .left{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     footer .left .links{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     #project .project a input{
@@ -357,6 +357,10 @@
 
     .navbar ul li{
         margin: 12px;
+        font-size: 18px;
+    }
+
+    aside .newNavbar #navID li a{
         font-size: 18px;
     }
 }
