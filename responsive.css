@@ -189,24 +189,28 @@
 
 @media (max-width: 655px){
     #home .container .content h1{
-        font-size: 42px;
+        font-size: 40px;
     }
 
     #home .container .content h1 span{
-        font-size: 48px;
+        font-size: 46px;
     }
 
     #home .container .content h2{
-        font-size: 36px;
+        font-size: 34px;
     }
     
     #home .container .content h2 span{
-        font-size: 44px;
+        font-size: 42px;
     }
 
     nav .logo img{
         width: 80px;
         height: 80px;
+    }
+
+    #about .container{
+        margin: 18px 20px;
     }
 
     #about .container p{
