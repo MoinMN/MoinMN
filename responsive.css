@@ -189,19 +189,19 @@
 
 @media (max-width: 655px){
     #home .container .content h1{
-        font-size: 38px;
+        font-size: 42px;
     }
 
     #home .container .content h1 span{
-        font-size: 44px;
+        font-size: 48px;
     }
 
     #home .container .content h2{
-        font-size: 32px;
+        font-size: 36px;
     }
     
     #home .container .content h2 span{
-        font-size: 40px;
+        font-size: 44px;
     }
 
     nav .logo img{
@@ -210,7 +210,7 @@
     }
 
     #about .container p{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     #contact .contact-contain form div{
@@ -234,27 +234,27 @@
     }
 
     #contact .contact-contain .contact-info #info-item .info-item i{
-        font-size: 24px;
+        font-size: 28px;
     }
     
     #contact .contact-contain .contact-info #info-item .info-item p{
-        font-size: 14px;
-    }
-    
-    #contact .contact-contain .contact-info #info-item .info-item span a{
-        font-size: 14px;
-    }
-
-    #contact .contact-contain .contact-info h3{
         font-size: 18px;
     }
     
+    #contact .contact-contain .contact-info #info-item .info-item span a{
+        font-size: 18px;
+    }
+
+    #contact .contact-contain .contact-info h3{
+        font-size: 22px;
+    }
+    
     #contact .contact-contain .contact-info h5{
-        font-size: 14px;
+        font-size: 18px;
     }
 
     #about .social-container h2{
-        font-size: 26px;
+        font-size: 30px;
         margin: 12px 20px;
     }
 
