@@ -361,6 +361,7 @@ aside .newNavbar #navID li a:hover{
     border-radius: 8px;
     cursor: pointer;
     margin: 12px 18px;
+    border: 1px solid black;
 }
 
 
