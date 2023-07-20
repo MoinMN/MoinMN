@@ -11,11 +11,6 @@
 
 I'm Moin Naik. I am pursing 🎓 Btech 3rd year in Computer Engineering at Rizvi College of Engineering. I love Web Developments  and here is my [portfolio website](https://moinmn.github.io/MoinMN). I am also passionate of Java & Python Programming.
 
-A Google Developer Expert on Android. An Android Engineer at [DeliveryHero](https://www.deliveryhero.com/) and also Co-organizer of [GDG MAD](https://gdgmad.com/) (Mumbai). Community is :heart:. Code blooded animal, 1xEngineer :stuck_out_tongue: and :coffee: lover. 
-
-I ocassionally blog and tweet about android. Also open sourced few android related stuff.  
-
-
 ## Things I am passionate about
 
 - Web Development :robot:
