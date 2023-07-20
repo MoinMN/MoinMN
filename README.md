@@ -1,4 +1,32 @@
-### Hi there 👋
+# Hey there :wave:
+
+<img src="https://raw.githubusercontent.com/sagar-viradiya/sagar-viradiya/master/resources/banner.png" alt="Hello world">
+
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/MoinMN/count.svg" />
+</p>
+
+## About me
+
+I'm Moin Naik. I am pursing 🎓 Btech 3rd year in Computer Engineering at Rizvi College of Engineering. I love Web Developments  and here is my [portfolio website](https://moinmn.github.io/MoinMN). I am also passionate of Java & Python Programming.
+
+A Google Developer Expert on Android. An Android Engineer at [DeliveryHero](https://www.deliveryhero.com/) and also Co-organizer of [GDG MAD](https://gdgmad.com/) (Mumbai). Community is :heart:. Code blooded animal, 1xEngineer :stuck_out_tongue: and :coffee: lover. 
+
+I ocassionally blog and tweet about android. Also open sourced few android related stuff.  
+
+
+## Things I am passionate about
+
+- Web Development :robot:
+- Python 🐍 & Java 🍵 Programming
+
+## Get in touch :coffee:
+
+- Your future buddy to discuss Web Development related things and tech in general on [Twitter](https://twitter.com/MoinMN5).
+- Connecting on [LinkedIn](https://www.linkedin.com/in/moinnaik/) for a professional rollercoaster ride filled with successes, memes, and occasional Monday morning existential crises.
+- Welcome to my [Instagram](https://instagram.com/im_moin45) wonderland – where life is filtered, but my sense of humor isn't! 😄 Follow me for laughs, inspiration, and maybe a few dog pics too. 🐶📸.
+- And of course GitHub you're already in 😅.
 
 <!--
 **MoinMN/MoinMN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
