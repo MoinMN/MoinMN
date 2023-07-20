@@ -11,7 +11,7 @@
 
 ## About me
 
-I'm Moin Naik. I am pursing 🎓 Btech 3rd year in Computer Engineering at Rizvi College of Engineering. I love Web Developments  and here is my [portfolio website](https://moinmn.github.io/MoinMN). I am also passionate of Java & Python Programming.
+I'm Moin Naik. I am pursing 🎓 Btech 3rd year in Computer Engineering at Rizvi College of Engineering. I love Web Developments  and here is my<a href="https://moinmn.github.io/MoinMN" target="_blank"> portfolio website</a>. I am also passionate of Java & Python Programming.
 
 ## Things I am passionate about
 
@@ -20,9 +20,9 @@ I'm Moin Naik. I am pursing 🎓 Btech 3rd year in Computer Engineering at Rizvi
 
 ## Get in touch :coffee:
 
-- Your future buddy to discuss Web Development related things and tech in general on [Twitter](https://twitter.com/MoinMN5).
-- Connecting on [LinkedIn](https://www.linkedin.com/in/moinnaik/) for a professional rollercoaster ride filled with successes, memes, and occasional Monday morning existential crises.
-- Welcome to my [Instagram](https://instagram.com/im_moin45) wonderland – where life is filtered, but my sense of humor isn't! 😄 Follow me for laughs, inspiration, and maybe a few dog pics too. 🐶📸.
+- Your future buddy to discuss Web Development related things and tech in general on <a href="https://twitter.com/MoinMN5" target="_blank"> Twitter</a>.
+- Connecting on <a href="https://www.linkedin.com/in/moinnaik/" target="_blank"> LinkedIn</a> for a professional rollercoaster ride filled with successes, memes, and occasional Monday morning existential crises.
+- Welcome to my <a href="https://instagram.com/im_moin45" target="_blank"> Instagram</a> wonderland – where life is filtered, but my sense of humor isn't! 😄 Follow me for laughs, inspiration, and maybe a few dog pics too. 🐶📸.
 - And of course GitHub you're already in 😅.
 
 <!--
