@@ -25,6 +25,11 @@ body{
     background-color: var(--blue-1);
     color: white;
     cursor: default;
+
+    -webkit-user-select:none;
+    -moz-user-select:-moz-none;
+    -ms-user-select:none;
+    user-select:none;
 }
 
 /* common */
@@ -148,6 +153,7 @@ aside .newNavbar #navID li a:hover{
     justify-content: center;
     align-items: center;
     padding: 38px;
+    margin: 20px;
 }
 
 #home .container .content{
@@ -240,6 +246,7 @@ aside .newNavbar #navID li a:hover{
     padding: 10px 0;
     font-family: 'Fasthand', cursive;
 }
+
 #about .social-container h2{
     font-size: 36px;
     margin: 12px 40px;

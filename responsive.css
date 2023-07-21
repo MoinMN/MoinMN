@@ -214,7 +214,7 @@
     }
 
     #about .container p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #contact .contact-contain form div{
@@ -276,6 +276,11 @@
 }
 
 @media (max-width: 555px){
+    #home .container{
+        margin: 15px;
+    }
+    
+
     #home .container .content h1{
         font-size: 36px;
     }
