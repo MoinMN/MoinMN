@@ -1,6 +1,6 @@
 # Hey :wave:, I'm Moin Naik!
 
-[![Twitter Badge](https://img.shields.io/badge/-@MoinMN5-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/MoinMN5)](https://twitter.com/MoinMN5) [![Linkedin Badge](https://img.shields.io/badge/-moinnaik-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/moinnaik/)](https://www.linkedin.com/in/moinnaik/)
+[![Twitter Badge](https://img.shields.io/badge/-@MoinMN5-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/MoinMN5)](https://twitter.com/MoinMN5) [![Linkedin Badge](https://img.shields.io/badge/-moinnaik-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/moinnaik/)](https://www.linkedin.com/in/moinnaik/) [![Netlify Status](https://api.netlify.com/api/v1/badges/c483ffa6-2ea5-40cb-a601-220ce8b6860f/deploy-status)](https://app.netlify.com/sites/moinmn/deploys)
 
 <img src="Readme/banner.png" alt="Hello world">
 
