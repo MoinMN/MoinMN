@@ -11,7 +11,7 @@
 
 ## About me
 
-I'm Moin Naik. I am pursing 🎓 Btech 3rd year in Computer Engineering at Rizvi College of Engineering. I love Web Developments  and here is my<a href="https://moinmn.github.io/MoinMN" target="_blank"> portfolio website</a>. I am also passionate of Java & Python Programming.
+I'm Moin Naik. I am pursing 🎓 Btech 4th year in Computer Engineering at Rizvi College of Engineering. I love Web Developments  and here is my<a href="https://moinmn.github.io/MoinMN" target="_blank"> portfolio website</a>. I am also passionate of Java Programming.
 
 ## Things I am passionate about
 
