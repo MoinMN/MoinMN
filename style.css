@@ -522,6 +522,10 @@ aside .newNavbar #navID li a:hover {
 
 /* contact form  */
 
+#contact #response_message {
+  text-align: center;
+}
+
 #contact .contact-contain form {
   display: flex;
   flex-direction: column;
@@ -529,7 +533,7 @@ aside .newNavbar #navID li a:hover {
   align-items: center;
 }
 
-#contact .contact-contain form div input {
+form div input {
   width: 450px;
   font-size: 18px;
   padding: 10px;
@@ -542,13 +546,13 @@ aside .newNavbar #navID li a:hover {
   margin: 12px 8px;
 }
 
-#contact .contact-contain form div input::placeholder {
+form div input::placeholder {
   font-size: 18px;
   padding: 6px;
   color: grey;
 }
 
-#contact .contact-contain form input {
+form input {
   width: 930px;
   font-size: 18px;
   padding: 10px;
@@ -561,13 +565,13 @@ aside .newNavbar #navID li a:hover {
   margin: 12px 8px;
 }
 
-#contact .contact-contain form input::placeholder {
+form input::placeholder {
   font-size: 18px;
   padding: 6px;
   color: grey;
 }
 
-#contact .contact-contain form textarea {
+form textarea {
   font-size: 18px;
   padding: 10px;
   outline: none;
@@ -582,7 +586,7 @@ aside .newNavbar #navID li a:hover {
   resize: vertical;
 }
 
-#contact .contact-contain form .btn3 {
+#contact form .btn3 {
   color: black;
   background-color: var(--blue-6);
   border: none;

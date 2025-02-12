@@ -2,364 +2,282 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moin MN</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
-        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moin MN</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
+    integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <a href="/"><img src="img/logo.png" alt="404"></a>
-        </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-                <li><a href="#about"><i class="fa-solid fa-user"></i> About me</a></li>
-                <li><a href="#project"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
-                <li><a href="#skill"><i class="fa-solid fa-code"></i> Skills</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
-            </ul>
-        </div>
-        <div id="m-btn">
-            <div id="menu" class="menu"><i class="fa-solid fa-bars"></i></div>
-            <div id="cross" class="cross"><i class="fa-solid fa-xmark"></i></div>
-        </div>
-    </nav>
-
-    <aside id="asideBar">
-        <div class="newNavbar">
-            <ul id="navID">
-                <li><a onclick="hide()" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-                <li><a onclick="hide()" href="#about"><i class="fa-solid fa-user"></i> About me</a></li>
-                <li><a onclick="hide()" href="#project"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
-                <li><a onclick="hide()" href="#skill"><i class="fa-solid fa-code"></i> Skills</a></li>
-                <li><a onclick="hide()" href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
-            </ul>
-        </div>
-    </aside>
-
-    <div id="home">
-        <div class="container">
-            <div class="content">
-                <h1>Hii, My name is <span>Moin Naik!</span></h1>
-                <h2>I'm a <span class="typing"></span></h2>
-                <div class="btn">
-                    <a href="#contact"><button type="button" id="btn1">Contact Me <i
-                                class="fa-solid fa-address-book"></i></button></a>
-                    <a href="#"><button type="button" id="btn2">Download CV <i
-                                class="fa-solid fa-download"></i></button></a>
-                </div>
-            </div>
-            <div id="photo">
-                <!-- <img src="img/me.jpg" alt="404"> -->
-                <img src="img/avatar.jpg" alt="404">
-            </div>
-        </div>
+  <nav>
+    <div class="logo">
+      <a href="/"><img src="img/logo.png" alt="404"></a>
     </div>
-
-    <div id="about">
-        <div class="main-head">
-            <h1>About me</h1>
-        </div>
-        <div class="container">
-            <div class="content">
-                <h2>Hello 👋</h2>
-                <p>
-                    I am Moin Naik 😎 and I am from 📍 Chiplun, Ratnagiri, Maharashtra 🇮🇳<br>
-                    I am 20 Years Old 👼<br>
-                    I am pursing 🎓 Btech 3rd year in 👩‍💻 Computer Engineering at 🏫 Rizvi College of Engineeing,
-                    Bandra<br>
-                    I am learning 🍵 Java & 🐍 Python Programming<br>
-                    I love 💘 Web Development <br>
-                    I also love Gaming and spending time on lappy
-                </p>
-                <h2>Thank you Reading!!!🤗</h2>
-            </div>
-        </div>
-        <hr>
-        <div class="social-container">
-            <h2>Connect with me, I am very Responsive Person!</h2>
-            <div class="connect">
-                <div class="social github">
-                    <a rel="noopener" target="_blank" href="https://github.com/MoinMN">
-                        <i class="fa-brands fa-github"></i>
-                        <span>Github</span>
-                        <input type="button" value="Watch Out">
-                    </a>
-                </div>
-                <div class="social linkedin">
-                    <a rel="noopener" href="https://www.linkedin.com/in/moinnaik/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <span>LinkedIn</span>
-                        <input type="button" value="Connect">
-                    </a>
-                </div>
-                <div class="social instagram">
-                    <a rel="noopener" href="https://www.instagram.com/im_moin45/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                        <span>Instragram</span>
-                        <input type="button" value="Follow me">
-                    </a>
-                </div>
-                <div class="social twitter">
-                    <a rel="noopener" href="https://twitter.com/MoinMN5" target="_blank">
-                        <i class="fa-brands fa-twitter"></i>
-                        <span>Twitter</span>
-                        <input type="button" value="Read Here">
-                    </a>
-                </div>
-                <div class="social snapchat">
-                    <a rel="noopener" href="https://www.snapchat.com/add/im_moin45?share_id=ThysUv9H14E&locale=en-US"
-                        target="_blank">
-                        <i class="fa-brands fa-snapchat"></i>
-                        <span>Snapchat</span>
-                        <input type="button" value="send snaps">
-                    </a>
-                </div>
-                <div class="social telegram">
-                    <a rel="noopener" href="https://t.me/im_moin45" target="_blank">
-                        <i class="fa-brands fa-telegram"></i>
-                        <span>Telegram</span>
-                        <input type="button" value="DM here">
-                    </a>
-                </div>
-                <div class="social threads">
-                    <a rel="noopener" href="https://www.threads.net/@im_moin45" target="_blank">
-                        <i class="fa-solid fa-hashtag"></i>
-                        <span>Threads</span>
-                        <input type="button" value="DM here">
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-user"></i> About me</a></li>
+        <li><a href="#project"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+        <li><a href="#skill"><i class="fa-solid fa-code"></i> Skills</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+      </ul>
     </div>
-
-
-    <div id="project">
-        <div class="main-head">
-            <h1>My Projects</h1>
-        </div>
-        <div class="project-contain">
-            <div class="project">
-                <h3>Online News Website</h3>
-                <p>An online news website which we will be creating using html, css and javascript library called react
-                    and we will be fetching the news data through an API.</p>
-                <div class="lang">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>Node.js</span>
-                    <span>API</span>
-                    <span>React Js</span>
-                </div>
-                <a rel="noopener" target="_blank" href="https://github.com/MoinMN/rcoe22-sem3-group5"><input
-                        type="button" value="Github"></a>
-            </div>
-
-            <div class="project">
-                <h3>Email Sender</h3>
-                <p>Email Sender Application using Java and Java API's like javaMail. The GUI is made by Java Swing.</p>
-                <div class="lang">
-                    <span>Java</span>
-                    <span>Java Swing</span>
-                </div>
-                <a rel="noopener" target="_blank" href="https://github.com/MoinMN/Email-Sender"><input type="button"
-                        value="Github"></a>
-            </div>
-
-            <div class="project">
-                <h3>Simple Calculator</h3>
-                <p>Simple Calculator using HTML, CSS & JavaScript</p>
-                <div class="lang">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-                <a rel="noopener" target="_blank" href="https://github.com/MoinMN/calculator"><input type="button"
-                        value="Github"></a>
-                <a rel="noopener" target="_blank" href="https://moinmn.github.io/calculator/"><input type="button"
-                        value="Website"></a>
-            </div>
-
-            <div class="project">
-                <h3>Mumbai Local QR-Codes for UTS App</h3>
-                <p>UTS QR-Code of Mumbai Local Railways Station.</p>
-                <div class="lang">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-                <a rel="noopener" target="_blank" href="https://github.com/MoinMN/MumbaiLocal-QR"><input type="button"
-                        value="Github"></a>
-                <a rel="noopener" target="_blank" href="https://moinmn.github.io/MumbaiLocal-QR"><input type="button"
-                        value="Website"></a>
-            </div>
-
-            <div class="project">
-                <h3>Login, Sign-up From by Django</h3>
-                <p>Authentication for login and sign-up pages by django</p>
-                <div class="lang">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Django</span>
-                    <span>Python</span>
-                </div>
-                <a rel="noopener" target="_blank" href="https://github.com/MoinMN/django-project"><input type="button"
-                        value="Github"></a>
-            </div>
-
-            <div class="project">
-                <h3>NetflixClone</h3>
-                <p>One page layout Netflix clone using HTML, CSS</p>
-                <div class="lang">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                </div>
-                <a rel="noopener" target="_blank" href="https://github.com/MoinMN/NetflixClone"><input type="button"
-                        value="Github"></a>
-                <a rel="noopener" target="_blank" href="https://moinmn.github.io/NetflixClone/"><input type="button"
-                        value="Website"></a>
-            </div>
-        </div>
+    <div id="m-btn">
+      <div id="menu" class="menu"><i class="fa-solid fa-bars"></i></div>
+      <div id="cross" class="cross"><i class="fa-solid fa-xmark"></i></div>
     </div>
+  </nav>
 
-    <div id="skill">
-        <div class="main-head">
-            <h1>My Skills</h1>
-        </div>
-        <div class="skill-contain">
-            <div class="skills" id="c">
-                <abbr title="Advanced" id="Advanced">
-                    <i class="fa-brands fa-c"></i>
-                    <span>C</span>
-                </abbr>
-            </div>
-            <div class="skills" id="cplusplus">
-                <abbr title="Beginner" id="Beginner">
-                    <i class="fa-solid fa-code"></i>
-                    <span>C++</span>
-                </abbr>
-            </div>
-            <div class="skills" id="py">
-                <abbr title="Advanced" id="Advanced">
-                    <i class="fa-brands fa-python"></i>
-                    <span>Python</span>
-                </abbr>
-            </div>
-            <div class="skills" id="html">
-                <abbr title="Intermediate" id="Intermediate">
-                    <i class="fa-brands fa-html5"></i>
-                    <span>HTML</span>
-                </abbr>
-            </div>
-            <div class="skills" id="css">
-                <abbr title="Advanced" id="Advanced">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <span>CSS</span>
-                </abbr>
-            </div>
-            <div class="skills" id="js">
-                <abbr title="Advanced" id="Advanced">
-                    <i class="fa-brands fa-square-js"></i>
-                    <span>JavaScript</span>
-                </abbr>
-            </div>
-            <div class="skills" id="java">
-                <abbr title="Advanced" id="Advanced">
-                    <i class="fa-brands fa-java"></i>
-                    <span>Java</span>
-                </abbr>
-            </div>
-            <div class="skills" id="sql">
-                <abbr title="Beginner" id="Beginner">
-                    <i class="fa-solid fa-database"></i>
-                    <span>SQL, PostgresSQL</span>
-                </abbr>
-            </div>
-        </div>
+  <aside id="asideBar">
+    <div class="newNavbar">
+      <ul id="navID">
+        <li><a onclick="hide()" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a onclick="hide()" href="#about"><i class="fa-solid fa-user"></i> About me</a></li>
+        <li><a onclick="hide()" href="#project"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+        <li><a onclick="hide()" href="#skill"><i class="fa-solid fa-code"></i> Skills</a></li>
+        <li><a onclick="hide()" href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+      </ul>
     </div>
+  </aside>
 
-    <div id="contact">
-        <div class="main-head">
-            <h1>Contact Me</h1>
+  <div id="home">
+    <div class="container">
+      <div class="content">
+        <h1>Hii, My name is <span>Moin MN!</span></h1>
+        <h2>I'm a <span class="typing"></span></h2>
+        <div class="btn">
+          <a href="#contact">
+            <button type="button" id="btn1">
+              Contact Me <i class="fa-solid fa-address-book"></i>
+            </button>
+          </a>
+          <a target="_blank" href="https://linkedin.com/in/moinnaik" rel="noopener">
+            <button type="button" id="btn2">
+              LinkedIn <i class="fa-brands fa-linkedin"></i>
+            </button>
+          </a>
         </div>
-        <div class="contact-contain">
-            <div class="contact-info">
-                <h3>Do you want to coonect with me?</h3>
-                <div id="info-item">
-                    <div class="info-item">
-                        <i class="fa fa-envelope"></i>
-                        <p>Email</p>
-                        <span><a href="mailto:moinnaik98@gmail.com">moinnaik98@gamil.com</a></span>
-                    </div>
-                    <div class="info-item">
-                        <i class="fa fa-globe-europe"></i>
-                        <p>Github</p>
-                        <span><a rel="noopener" href="https://github.com/MoinMN" target="_blank">Click me</a></span>
-                    </div>
-                    <div class="info-item">
-                        <i class="fa fa-map-marker-alt"></i>
-                        <p>Address</p>
-                        <span>Chiplun, Ratnagiri</span>
-                    </div>
-                </div>
-                <h3>Sent Me An Mail</h3>
-                <h5>I'm very Responsive on Messages</h5>
-            </div>
-
-            <form target="_blank" action="https://formsubmit.co/7a9850950c14977b80d0e9bfed0e2523" method="POST">
-                <div>
-                    <input type="text" name="name" id="name" placeholder="Name" required>
-                    <input type="text" name="email" id="email" placeholder="Email" required>
-                </div>
-                <input type="text" name="subject" id="subject" placeholder="Subject">
-                <textarea name="message" id="message" placeholder="Enter your Message" required></textarea>
-                <div class="btn">
-                    <button class="btn3" type="submit">Send Message</button>
-                    <button class="btn3" type="reset">Clear</button>
-                </div>
-            </form>
-        </div>
+      </div>
+      <div id="photo">
+        <!-- <img src="img/me.jpg" alt="404"> -->
+        <img src="img/avatar.jpg" alt="404">
+      </div>
     </div>
+  </div>
 
-    <footer>
-        <div class="left">
-            <span>Developed & Maintained by <a rel="noopener" href="https://www.linkedin.com/in/moinnaik/"
-                    target="_blank">Moin MN</a></span>
-            <div class="links">
-                <a rel="noopener" id="github" target="_blank" href="https://github.com/MoinMN"><i
-                        class="fa-brands fa-github"></i></a>
-                <a rel="noopener" id="linedin" target="_blank" href="https://linkedin.com/in/moinnaik"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a rel="noopener" id="insta" target="_blank" href="https://instagram.com/im_moin45"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a rel="noopener" id="twitter" target="_blank" href="https://twitter.com/MoinMN5"><i
-                        class="fa-brands fa-twitter"></i></a>
-                <a rel="noopener" id="snapchat" target="_blank"
-                    href="https://www.snapchat.com/add/im_moin45?share_id=ThysUv9H14E&locale=en-US"><i
-                        class="fa-brands fa-snapchat"></i></a>
-                <a rel="noopener" id="telegram" target="_blank" href="https://t.me/im_moin45"><i
-                        class="fa-brands fa-telegram"></i></a>
-                <a rel="noopener" id="threads" target="_blank" href="https://www.threads.net/@im_moin45"><i
-                        class="fa-solid fa-hashtag"></i></a>
-            </div>
+  <div id="about">
+    <div class="main-head">
+      <h1>About me</h1>
+    </div>
+    <div class="container">
+      <div class="content">
+        <h2>Hello 👋</h2>
+        <p>
+          I am Moin Naik 😎 and I am from 📍 Navi Mumbai, Maharashtra 🇮🇳<br>
+          I am 21 Years Old 👼<br>
+          I am pursing 🎓 Btech final year in 👩‍💻 Computer Engineering at 🏫 Rizvi College of Engineeing,
+          Bandra<br>
+          I am <strong>MERN Stack Developer & Next.Js Developer</strong><br>
+          I love 💘 Web Development <br>
+        </p>
+        <h2>Thank you Reading!!!🤗</h2>
+      </div>
+    </div>
+    <hr>
+    <div class="social-container">
+      <h2>Connect with me, I am very Responsive Person!</h2>
+      <div class="connect">
+        <div class="social github">
+          <a rel="noopener" target="_blank" href="https://github.com/MoinMN">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+            <input type="button" value="Watch Out">
+          </a>
         </div>
-        <div class="right">
-            <span>version 1.0.1</span>
-            <span>copyrights © Moin MN</span>
+        <div class="social linkedin">
+          <a rel="noopener" href="https://www.linkedin.com/in/moinnaik/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+            <input type="button" value="Connect">
+          </a>
         </div>
-    </footer>
+        <div class="social instagram">
+          <a rel="noopener" href="https://www.instagram.com/im_moin45/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instragram</span>
+            <input type="button" value="Follow me">
+          </a>
+        </div>
+        <div class="social twitter">
+          <a rel="noopener" href="https://twitter.com/MoinMN5" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+            <span>Twitter</span>
+            <input type="button" value="Read Here">
+          </a>
+        </div>
+        <div class="social snapchat">
+          <a rel="noopener" href="https://www.snapchat.com/add/im_moin45?share_id=ThysUv9H14E&locale=en-US"
+            target="_blank">
+            <i class="fa-brands fa-snapchat"></i>
+            <span>Snapchat</span>
+            <input type="button" value="send snaps">
+          </a>
+        </div>
+        <div class="social telegram">
+          <a rel="noopener" href="https://t.me/im_moin45" target="_blank">
+            <i class="fa-brands fa-telegram"></i>
+            <span>Telegram</span>
+            <input type="button" value="DM here">
+          </a>
+        </div>
+        <div class="social threads">
+          <a rel="noopener" href="https://www.threads.net/@im_moin45" target="_blank">
+            <i class="fa-solid fa-hashtag"></i>
+            <span>Threads</span>
+            <input type="button" value="DM here">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script src="script.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="https://kit.fontawesome.com/437000937b.js" crossorigin="anonymous"></script>
+
+  <div id="project">
+    <div class="main-head">
+      <h1>My Projects</h1>
+    </div>
+    <div class="project-contain" id="project_container">
+      <!-- append projects here from javascript  -->
+    </div>
+  </div>
+
+  <div id="skill">
+    <div class="main-head">
+      <h1>My Skills</h1>
+    </div>
+    <div class="skill-contain" id="skill_container">
+      <!-- all skills load from javascript -->
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="main-head">
+      <h1>Contact Me</h1>
+    </div>
+    <div class="contact-contain">
+      <div class="contact-info">
+        <h3>Do you want to connect with me?</h3>
+        <div id="info-item">
+          <div class="info-item">
+            <i class="fa fa-envelope"></i>
+            <p>Email</p>
+            <span><a href="mailto:moinnaik98@gmail.com">moinnaik98@gamil.com</a></span>
+          </div>
+          <div class="info-item">
+            <i class="fa fa-globe-europe"></i>
+            <p>Github</p>
+            <span><a rel="noopener" href="https://github.com/MoinMN" target="_blank">Click me</a></span>
+          </div>
+          <div class="info-item">
+            <i class="fa fa-map-marker-alt"></i>
+            <p>Address</p>
+            <span>Chiplun, Ratnagiri</span>
+          </div>
+        </div>
+        <h3>Sent Me An Mail</h3>
+        <h5>I'm very Responsive on Messages</h5>
+      </div>
+
+      <form id="contactForm">
+        <div id="response_message">
+          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis </span>
+        </div>
+        <input type="hidden" name="_captcha" value="false">
+        <div>
+          <input type="text" name="name" id="name" placeholder="Name" required>
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+        <input type="text" name="subject" id="subject" placeholder="Subject">
+        <textarea name="message" id="message" placeholder="Enter your Message" required></textarea>
+        <div class="btn">
+          <button class="btn3" type="submit">Send Message</button>
+          <button class="btn3" type="reset">Clear</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="left">
+      <span>Developed & Maintained by <a rel="noopener" href="https://www.linkedin.com/in/moinnaik/"
+          target="_blank">Moin MN</a></span>
+      <div class="links">
+        <a rel="noopener" id="github" target="_blank" href="https://github.com/MoinMN"><i
+            class="fa-brands fa-github"></i></a>
+        <a rel="noopener" id="linedin" target="_blank" href="https://linkedin.com/in/moinnaik"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a rel="noopener" id="insta" target="_blank" href="https://instagram.com/im_moin45"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a rel="noopener" id="twitter" target="_blank" href="https://twitter.com/MoinMN5"><i
+            class="fa-brands fa-twitter"></i></a>
+        <a rel="noopener" id="snapchat" target="_blank"
+          href="https://www.snapchat.com/add/im_moin45?share_id=ThysUv9H14E&locale=en-US"><i
+            class="fa-brands fa-snapchat"></i></a>
+        <a rel="noopener" id="telegram" target="_blank" href="https://t.me/im_moin45"><i
+            class="fa-brands fa-telegram"></i></a>
+        <a rel="noopener" id="threads" target="_blank" href="https://www.threads.net/@im_moin45"><i
+            class="fa-solid fa-hashtag"></i></a>
+      </div>
+    </div>
+    <div class="right">
+      <span>version 1.0.1</span>
+      <span>copyrights © Moin MN</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://kit.fontawesome.com/437000937b.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    // form submit ajax request here
+    $("#contactForm").on("submit", function (e) {
+      e.preventDefault();     // Prevent default form submission
+
+      // Extract form values
+      const formData = {
+        name: $("#name").val(),
+        email: $("#email").val(),
+        subject: $("#subject").val(),
+        message: $("#message").val(),
+      };
+
+      $.ajax({
+        method: "POST",
+        url: "https://formsubmit.co/ajax/7a9850950c14977b80d0e9bfed0e2523",
+        dataType: "json",
+        accepts: "application/json",
+        data: formData,
+        success: (response) => {
+          console.log("Success:", response);
+          showResponseMessage("Your Message sent successfully!");
+          $("#name").val("");
+          $("#email").val("");
+          $("#subject").val("");
+          $("#message").val("");
+        },
+        error: (err) => {
+          console.log("Error:", err);
+          showResponseMessage("Failed to sent your message, please try again or else try direct contact!");
+        },
+      });
+    });
+  </script>
 </body>
 
 </html>
