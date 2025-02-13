@@ -11,11 +11,12 @@
 
 ## About me
 
-I'm Moin Naik. I am pursing 🎓 Btech 4th year in Computer Engineering at Rizvi College of Engineering. I love Web Developments  and here is my<a href="https://moinmn.github.io/MoinMN" target="_blank"> portfolio website</a>. I am also passionate of Java Programming.
+I'm Moin Naik. I am pursing 🎓 Btech 4th year in Computer Engineering at Rizvi College of Engineering. Dedicated MERN stack and Next.js developer with hands-on experience building web applications through diverse projects using MongoDB, Express.js, React.js, Node.js, and Next.js. Proficient in Java for solving programming challenges. Focused on creating scalable and efficient applications, I bring strong problem-solving skills, a passion for learning, and adaptability to new technologies..
 
 ## Things I am passionate about
 
-- MERN Developer :robot:
+- MERN Stack Developer :robot:
+- Next.Js Developer 💻
 - Java 🍵 Programming
 - Python 🐍 Programming
 
