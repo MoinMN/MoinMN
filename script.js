@@ -164,3 +164,6 @@ const showResponseMessage = (message) => {
   responseSpan.innerText = message;
   responseContainer.appendChild(responseSpan);
 }
+
+// scrolling down logic
+const handleScroll = (section) => document.getElementById(section).scrollIntoView({ behavior: "smooth" });
