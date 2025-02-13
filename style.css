@@ -126,15 +126,16 @@ aside .newNavbar #navID li {
   line-height: 30px;
 }
 
-aside .newNavbar #navID li a {
-  text-decoration: none;
+aside .newNavbar #navID li {
   color: black;
   font-size: 24px;
+  transition: all 0.3s ease-in-out;
 }
 
-aside .newNavbar #navID li a:hover {
+aside .newNavbar #navID li:hover {
   color: var(--blue-5);
   border-bottom: 3px solid var(--blue-5);
+  cursor: pointer;
 }
 
 /* Home  */

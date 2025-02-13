@@ -14,9 +14,11 @@ btn.addEventListener("click", () => {
 
 // aside bar
 function hide() {
-  navList.style.right = '-500px';
-  btn.querySelector('i').classList.toggle('fa-xmark');
-  btn.querySelector('i').classList.toggle('fa-bars');
+  if (btn.querySelector('i').classList[1] === 'fa-xmark') {
+    navList.style.right = '-500px';
+    btn.querySelector('i').classList.toggle('fa-xmark');
+    btn.querySelector('i').classList.toggle('fa-bars');
+  }
 }
 
 // typing animation
@@ -166,4 +168,7 @@ const showResponseMessage = (message) => {
 }
 
 // scrolling down logic
-const handleScroll = (section) => document.getElementById(section).scrollIntoView({ behavior: "smooth" });
+const handleScroll = (section) => {
+  document.getElementById(section).scrollIntoView({ behavior: "smooth" });
+  hide();
+} 

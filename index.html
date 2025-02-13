@@ -36,11 +36,21 @@
   <aside id="asideBar">
     <div class="newNavbar">
       <ul id="navID">
-        <li><a onclick="hide()" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-        <li><a onclick="hide()" href="#about"><i class="fa-solid fa-user"></i> About me</a></li>
-        <li><a onclick="hide()" href="#project"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
-        <li><a onclick="hide()" href="#skill"><i class="fa-solid fa-code"></i> Skills</a></li>
-        <li><a onclick="hide()" href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+        <li onclick="handleScroll(`home`)">
+          <i class="fa-solid fa-house"></i> Home
+        </li>
+        <li onclick="handleScroll(`about`)">
+          <i class="fa-solid fa-user"></i> About me
+        </li>
+        <li onclick="handleScroll(`project`)">
+          <i class="fa-solid fa-diagram-project"></i> Projects
+        </li>
+        <li onclick="handleScroll(`skill`)">
+          <i class="fa-solid fa-code"></i> Skills
+        </li>
+        <li onclick="handleScroll(`contact`)">
+          <i class="fa-solid fa-address-book"></i> Contact
+        </li>
       </ul>
     </div>
   </aside>
